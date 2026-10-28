@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VOID — мой проект</title>
+
+  <meta name="description" content="Моё пространство в интернете.">
+
+  <style>
+
+    * { box-sizing: border-box; }
+
+    body {
+
+      margin: 0;
+
+      background: #090b10;
+
+      color: #f4f5f7;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    header, main, footer {
+
+      width: min(100% - 40px, 1000px);
+
+      margin: auto;
+
+    }
+
+    header {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      padding: 28px 0;
+
+    }
+
+    .logo {
+
+      font-size: 24px;
+
+      font-weight: 800;
+
+      letter-spacing: 3px;
+
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .tag {
+
+      color: #80ffd3;
+
+      font-size: 13px;
+
+      letter-spacing: 2px;
+
+      text-transform: uppercase;
+
+    }
+
+    .hero {
+
+      padding: 100px 0 75px;
+
+    }
+
+    h1 {
+
+      font-size: clamp(42px, 8vw, 78px);
+
+      line-height: 1.05;
+
+      margin: 20px 0;
+
+      letter-spacing: -3px;
+
+    }
+
+    h1 span { color: #80ffd3; }
+
+    p {
+
+      color: #a6adbb;
+
+      line-height: 1.8;
+
+    }
+
+    .intro { max-width: 560px; }
+
+    .button {
+
+      display: inline-block;
+
+      margin-top: 20px;
+
+      padding: 14px 22px;
+
+      background: #80ffd3;
+
+      color: #07110e;
+
+      border-radius: 10px;
+
+      font-weight: bold;
+
+    }
+
+    h2 { margin: 0 0 22px; }
+
+    .grid {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+      gap: 16px;
+
+    }
+
+    .card {
+
+      padding: 25px;
+
+      background: #11151e;
+
+      border: 1px solid #252b38;
+
+      border-radius: 16px;
+
+    }
+
+    .card h3 { margin-top: 0; }
+
+    .card p { font-size: 14px; }
+
+    .contact { padding: 75px 0; }
+
+    footer {
+
+      padding: 25px 0;
+
+      border-top: 1px solid #252b38;
+
+      color: #737d8d;
+
+      font-size: 13px;
+
+    }
+
+    max-width: 600px {
+
+      .hero { padding: 65px 0 55px; }
+
+      h1 { letter-spacing: -2px; }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <a class="logo" href="#">VOID.</a>
+
+    <span class="tag">Мой проект</span>
+
+  </header>
+
+  <main>
+
+    <section class="hero">
+
+      <span class="tag">Добро пожаловать</span>
+
+      <h1>Создаю своё.
+<span>Двигаюсь дальше.</span></h1>
+
+      <p class="intro">
+
+        Это моё пространство в интернете.
+
+        Здесь будут мои идеи, проекты и всё,
+
+        чем я хочу поделиться с миром.
+
+      </p>
+
+      <a class="button" href="#projects">Посмотреть проекты ↘</a>
+
+    </section>
+
+    <section id="projects">
+
+      <h2>Мои проекты</h2>
+
+      <div class="grid">
+
+        <article class="card">
+
+          <span class="tag">01 / Идеи</span>
+
+          <h3>Первый проект</h3>
+
+          <p>Здесь появится описание моей первой идеи.</p>
+
+        </article>
+
+        <article class="card">
+
+          <span class="tag">02 / Работа</span>
+
+          <h3>В разработке</h3>
+
+          <p>Новые задумки, эксперименты и планы.</p>
+
+        </article>
+
+        <article class="card">
+
+          <span class="tag">03 / Обо мне</span>
+
+          <h3>Мой путь</h3>
+
+          <p>Буду добавлять сюда свои достижения.</p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+      <span class="tag">На связи</span>
+
+      <h2>Есть идея?</h2>
+
+      <p>Скоро здесь появятся ссылки на мои соцсети.</p>
+
+    </section>
+
+  </main>
+
+  <footer>© 2026 VOID. Мой проект в интернете.</footer>
+
+</body>
+
+</html>
+
+
+
+
+
